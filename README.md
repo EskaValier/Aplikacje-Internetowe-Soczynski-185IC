@@ -1,6 +1,6 @@
 # Aplikacje-Internetowe-Soczynski-185IC
  
-**1. Blog uruchomiony na PaaS**
+**1. Blog uruchomiony na PaaS**<br />
 należy utworzyć repozytorium o nazwie aplikacje-internetowe-dane-185ic, gdzie zamiast ‘dane’ wpisujemy nazwisko lub nr indeksu; będzie ono podstawą zaliczenia przedmiotu,
 w ww. repozytorium umieszczamy kolejne zrealizowane zadania w osbnych folderach i z osobnymi plikami README,
 poniższe zagadnienia powinny zostać zrealizowane:<br />
