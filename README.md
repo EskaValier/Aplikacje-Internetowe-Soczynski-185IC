@@ -1,4 +1,6 @@
 # Aplikacje-Internetowe-Soczynski-185IC
+
+Uruchomioną stronę można znaleźć pod adresem: https://blog-soczynski.herokuapp.com/
  
 **1. Blog uruchomiony na PaaS**<br />
 należy utworzyć repozytorium o nazwie aplikacje-internetowe-dane-185ic, gdzie zamiast ‘dane’ wpisujemy nazwisko lub nr indeksu; będzie ono podstawą zaliczenia przedmiotu,
