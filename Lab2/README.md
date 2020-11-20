@@ -20,6 +20,9 @@ Widok "Logout"
 Widok "Zmiany hasła"
 ![Zmiana hasla](Screenshots/ZmianaHasla.jpg "Zmiana hasla")
 
+Widok "Pomyślnej zmiany hasła"
+![Zmiana hasla](Screenshots/ZmianaHaslaPomyslna.jpg "Zmiana hasla")
+
 Widok "Resetu hasła"
 ![Reset hasla](Screenshots/OknoResetuHasła.jpg "Reset hasla")
 
