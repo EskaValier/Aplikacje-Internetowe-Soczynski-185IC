@@ -22,3 +22,8 @@ należy zrealizować następujące operacje:<br />
 widoki ‘login’ i ‘logout’<br />
 widok od zmiany hasła (PasswordChangeView)<br />
 widok od resetu hasła (PasswordResetView)<br />
+
+**3. Różne sposoby uwierzytelniania**
+uwierzytelnianie przez social media i za pomocą wbudowanych backendów (username lub email),<br />
+należy dodać dwa dowolne backendy uwierzytelniające do listy AUTHORIZATION_BACKENDS (np. Facebook i Twitter),<br />
+konieczne będzie utworzenie aplikacji ww. portalach,<br />
