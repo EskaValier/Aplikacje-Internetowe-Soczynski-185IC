@@ -9,6 +9,9 @@
 - należy przeanalizować i wdrożyć kod z repozytorium do zajęć,
 - plusy za własne przemyślenia, analizę dokumentacji i idące za nimi modyfikacje w projekcie,
 
+Widok strony z "PostList" (widok API) gdy nie jesteśmy zalogowani
+![PostList Logout](Screenshots/PostList_Logout.jpg "PostList Logout")
+
 Widok strony z "PostList" (widok API)
 ![PostList](Screenshots/PostList.jpg "PostList")
 ![PostList](Screenshots/PostList2.jpg "PostList")
