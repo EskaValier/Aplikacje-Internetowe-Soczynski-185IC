@@ -9,17 +9,20 @@
 - należy przeanalizować i wdrożyć kod z repozytorium do zajęć,
 - plusy za własne przemyślenia, analizę dokumentacji i idące za nimi modyfikacje w projekcie,
 
-Widok "Login"
-![Login](Screenshots/Login.jpg "Login")
+Widok strony z "PostList" (widok API)
+![PostList](Screenshots/PostList.jpg "PostList")
+![PostList](Screenshots/PostList2.jpg "PostList")
 
-Widok "Dashboard" po zalogowaniu
-![Dashboard](Screenshots/Zalogowanie.jpg "Dashboard")
+Widok strony z "PostList" (widok JSON)
+![PostList JSON](Screenshots/PostList_JSON.jpg "PostList JSON")
 
-Widok "Logowania" przez Facebook's
-![LoginFB](Screenshots/LogowanieFB.jpg "LoginFB")
+Widok strony z "PostDetail" (widok API)
+![PostDetail](Screenshots/PostDetail.jpg "PostDetail")
+![PostDetail](Screenshots/PostDetail2.jpg "PostDetail")
 
-Widok potwierdzenie "Zalogowania" przez FaceBook'a
-![Facebook](Screenshots/ZalogowanieFB.jpg "Facebook")
+Widok strony z "PostDetail" (widok JSON)
+![PostDetail JSON](Screenshots/PostDetail_JSON.jpg "PostDetail JSON")
 
-Widok "Logowania" przez Twetter's
-![LoginTw](Screenshots/Twetter.jpg "LoginTw")
+Widok strony z "Swagger'a"
+![Swagger](Screenshots/Swagger.jpg "Swagger")
+![Swagger](Screenshots/Swagger2.jpg "Swagger")
