@@ -27,3 +27,18 @@ widok od resetu hasła (PasswordResetView)<br />
 uwierzytelnianie przez social media i za pomocą wbudowanych backendów (username lub email),<br />
 należy dodać dwa dowolne backendy uwierzytelniające do listy AUTHORIZATION_BACKENDS (np. Facebook i Twitter),<br />
 konieczne będzie utworzenie aplikacji ww. portalach,<br />
+
+**4. REST API z DRF**
+
+- Django Rest Framework,
+- zezwolenia,
+- Swagger,
+- serializery,
+
+**5. Web Scraping**
+- krótki wstęp do web scrapingu z Pythonem,
+- krótki wstęp do web scrapingu z BS4,
+- Beautiful Soup,
+- XPath i lxml,
+- implementacja wyszukiwania elementów do scrapowania za pomocą formularza w Django,
+
