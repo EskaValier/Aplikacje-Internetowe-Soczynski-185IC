@@ -11,9 +11,9 @@ soup = BeautifulSoup(page.content, 'lxml')
 # print(soup)
 
 print('HTML Title: ', soup.title.text)
-resultsH1 = soup.find_all('div', class_='post')
+posts = soup.find_all('div', class_='post')
 
-for el in resultsH1:
+for el in posts:
     title_el = el.h1
     content_el = el.find('p')
     create_date_el = el.find('div', class_='date')
@@ -27,4 +27,15 @@ for el in resultsH1:
     print('Post title: ',title_el.text, end='\n')
     print(content_el.text, end='\n'*2)
     print('Link do strony z detalem postu: ',URL + link_el)
-    
+
+#nazwa klasy / klas pierwszego znalezionego div'a
+div_Class = soup.div['class']
+print(div_Class)
+
+#zmiana zawartości elementu
+footer = soup.find('div', class_='page-footer')
+print("Old footer:\n", footer)
+newFooter = BeautifulSoup("<footer> stopka </footer>", 'lxml')
+
+footer.find('button').replace_with(newFooter)
+print("New footer:\n", footer)

@@ -8,5 +8,8 @@
 - implementacja wyszukiwania elementów do scrapowania za pomocą formularza w Django,
 
 Scrapowanie Postów ze strony stworzonej na Lab1.
-Wynik w terminalu:
+Wynik scrapowania w terminalu:
 ![Scraping](Screenshots/Scraping.jpg "Scraping")
+
+Link do detalu + zmiana wartości w elemencie:
+![Zmiana](Screenshots/Zmiana.jpg "Zmiana")
