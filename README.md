@@ -42,3 +42,8 @@ konieczne będzie utworzenie aplikacji ww. portalach,<br />
 - XPath i lxml,
 - implementacja wyszukiwania elementów do scrapowania za pomocą formularza w Django,
 
+**6. Zezwolenia i uwierzytelnianie w DRF**
+- viewsets,
+- routers,
+- uwierzytelnianie (basic, session, token),
+należy przeanalizować i wdrożyć kod z repozytorium do zajęć,

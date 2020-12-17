@@ -1,31 +1,27 @@
 # Aplikacje-Internetowe-Soczynski-185IC
 
-**4. REST API z DRF**
+6. Zezwolenia i uwierzytelnianie w DRF
+- viewsets,
+- routers,
+- uwierzytelnianie (basic, session, token),
+należy przeanalizować i wdrożyć kod z repozytorium do zajęć,
 
-- Django Rest Framework,
-- zezwolenia,
-- Swagger,
-- serializery,
-- należy przeanalizować i wdrożyć kod z repozytorium do zajęć,
-- plusy za własne przemyślenia, analizę dokumentacji i idące za nimi modyfikacje w projekcie,
+Widok strony z "Todo list" (widok API) gdy nie jesteśmy uwierzytelnieni
+![TodoList NoAuth](Screenshots/TodoNoAuth.jpg "TodoList NoAuth")
 
-Widok strony z "PostList" (widok API) gdy nie jesteśmy zalogowani
-![PostList Logout](Screenshots/PostList_Logout.jpg "PostList Logout")
+Widok strony z "Todo list" (widok API) gdy jesteśmy uwierzytelnieni
+![TodoList Auth](Screenshots/TodoAuth.jpg "TodoList Auth")
 
-Widok strony z "PostList" (widok API)
-![PostList](Screenshots/PostList.jpg "PostList")
-![PostList](Screenshots/PostList2.jpg "PostList")
+Widok strony z "Todo instance" (konkretne zadanie, widok API) gdy nie jesteśmy uwierzytelnieni
+![TodoDetail NoAuth](Screenshots/TodoDetailNoAuth.jpg "TodoDetail NoAuth")
 
-Widok strony z "PostList" (widok JSON)
-![PostList JSON](Screenshots/PostList_JSON.jpg "PostList JSON")
+Widok strony z "Todo instance" (konkretne zadanie, widok API) gdy jesteśmy uwierzytelnieni
+![TodoDetail Auth](Screenshots/TodoDetailAuth.jpg "TodoDetail Auth")
 
-Widok strony z "PostDetail" (widok API)
-![PostDetail](Screenshots/PostDetail.jpg "PostDetail")
-![PostDetail](Screenshots/PostDetail2.jpg "PostDetail")
+Strona "Hello" jest testoowa, do sprawdzenia działania zanim dodałem ją do wersji strony z zadaniami "todo"
 
-Widok strony z "PostDetail" (widok JSON)
-![PostDetail JSON](Screenshots/PostDetail_JSON.jpg "PostDetail JSON")
+Widok strony z "Hello" gdy nie jesteśmy uwierzytelnieni
+![Hello NoAuth](Screenshots/HelloNoAuth.jpg "Hello NoAuth")
 
-Widok strony z "Swagger'a"
-![Swagger](Screenshots/Swagger.jpg "Swagger")
-![Swagger](Screenshots/Swagger2.jpg "Swagger")
+Widok strony z "Hello" gdy jesteśmy uwierzytelnieni
+![Hello Auth](Screenshots/HelloAuth.jpg "Hello Auth")
