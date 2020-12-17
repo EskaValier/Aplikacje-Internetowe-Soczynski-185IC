@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'rest_framework',
+    'rest_framework.authtoken',
+
     'apis', 
     'todos',
 ]
@@ -125,6 +127,10 @@ STATIC_URL = '/static/'
 
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.AllowAny',
+        # 'rest_framework.permissions.AllowAny',
+        
+        'rest_framework.authentication.TokenAuthentication',
     ]
 }
+
+#my token " df1a19fb2d6fb323617b3bcdf2cd1f47b68e89dc " user dominik
