@@ -46,4 +46,12 @@ konieczne będzie utworzenie aplikacji ww. portalach,<br />
 - viewsets,
 - routers,
 - uwierzytelnianie (basic, session, token),
-należy przeanalizować i wdrożyć kod z repozytorium do zajęć,
+
+**7. Python + Redis + Django**
+- nie jest konieczna instalacja Redisa za pomocą Dockera, wystarczy standardowa instalacja,
+- oprócz instalacji redis-server konieczna jest instalacja pakietu redis poprzez ‘pip’,
+- najwygodniej jest podzielić się zadaniami, żeby przyspieszyć pracę z Redisem,
+- tutorial o współpracy Python + Redis,
+- do przerobienia przykład współpracy Django + Redis + Celery,
+- praca z workerami w Celery,
+- praca z Celery Beat,
