@@ -55,3 +55,14 @@ konieczne będzie utworzenie aplikacji ww. portalach,<br />
 - do przerobienia przykład współpracy Django + Redis + Celery,
 - praca z workerami w Celery,
 - praca z Celery Beat,
+
+**8. Czat z użyciem django-channels + Web Workers**
+
+
+**9. Django + React (aplikacja CRUD)**
+- backend napisany w Django,
+- frontend napisany za pomocą React.js,
+- biblioteka ‘axios’ użyta do “konsumowania” API wystawionego przez DRF,
+- przykład aplikacji CRUD z wykorzystaniem Django i React’a,
+- należy przeanalizować i wdrożyć kod z ww. poradnika,
+
