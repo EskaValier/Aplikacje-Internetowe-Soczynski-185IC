@@ -20,7 +20,7 @@ Widok strony po zedytowaniu zadania
 ![Strona Edycji - 2](Screenshots/Edited.jpg "Strona Edycji - 2")
 
 Widok strony głównej z podglądem zedytowanego zadania
-![StronaGlowna - edit](Screenshots/TutorialsEditet.jpg "Strona Glowna - edit")
+![StronaGlowna - edit](Screenshots/TutorialsEdited.jpg "Strona Glowna - edit")
 
 Widok strony z dodawaniem zadania
 ![Strona Dodawanie](Screenshots/Add.jpg "Strona Dodawanie")
