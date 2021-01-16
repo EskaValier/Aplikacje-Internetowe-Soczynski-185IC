@@ -66,3 +66,9 @@ konieczne będzie utworzenie aplikacji ww. portalach,<br />
 - przykład aplikacji CRUD z wykorzystaniem Django i React’a,
 - należy przeanalizować i wdrożyć kod z ww. poradnika,
 
+**10. Django + React (aplikacja typu ToDo)**
+- backend napisany w Django,
+- frontend napisany za pomocą React.js,
+- biblioteka ‘axios’ użyta do “konsumowania” API wystawionego przez DRF,
+- przykład aplikacji To-Do z wykorzystaniem Django i React’a,
+- należy przeanalizować i wdrożyć kod z ww. poradnika,
