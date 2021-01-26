@@ -1,15 +1,29 @@
-# chat-example
+**8. Czat z użyciem django-channels + Web Workers**
 
-This is the source code for a very simple chat example used for
-the [Getting Started](http://socket.io/get-started/chat/) guide
-of the Socket.IO website.
+* **part I:**
+- szybkie wyjaśnienie idei WebSockets,
+- więcej szczegółów na javascript.info,
+- modułws z Node.js,
+- czym jest WSGI?,
+- od Django 3.0 możemy również korzystać z zalet ASGI (Asynchronous Server Gateway Interface),
+- gdzie można korzystać z ASGI,
+- przykład z wykorzystaniem socket.io do budowy czata
 
-Please refer to it to learn how to run this application.
+Widok strony głównej czatu - napisane wiadomości (przeglądarka Google Chrome)
+![StronaGlowna - czatChrome](Screenshots/WidokChrome.jpg "Strona Glowna ToDo - czatChrome")
 
-You can also spin up a free Heroku dyno to test it out:
+Widok strony głównej czatu - napisane wiadomości (przeglądarka Mozilla Firefox)
+![StronaGlowna - czatMozilla](Screenshots/WidokMozilla.jpg "Strona Glowna ToDo - czatMozilla")
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/socketio/chat-example)
+Widok strony głównej czatu - napisane wiadomości po odswiezeniu strony w przeglądarce Mozilla Firefox (przeglądarka Google Chrome)
+![StronaGlowna - czatChrome](Screenshots/WidokChromeOdswiez.jpg "Strona Glowna ToDo - czatChrome")
 
-Or run it on [Repl.it](https://repl.it/):
+Widok strony głównej czatu - napisane wiadomości po odswiezeniu strony (przeglądarka Mozilla Firefox)
+![StronaGlowna - czatMozilla](Screenshots/WidokMozillaOdswiez.jpg "Strona Glowna ToDo - czatMozilla")
 
-[![Run on Repl.it](https://repl.it/badge/github/socketio/chat-example)](https://repl.it/github/socketio/chat-example)
+
+* **part II:**
+- wyjaśnienie idei stosowania Web Workerów,
+- praca z Web Worker’ami,
+- należy zwrócić uwagę na typowe dla Workerów elementy: event listener onmessage i funkcję postMessae(),
+- należy wdrożyć dwa Web Workery, z których każdy wykonuje “czasochłonne” obliczenia, np. obliczanie liczby ciągu Fibonnaciego.
